@@ -53,4 +53,6 @@ ServiceDemonstration::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  resources :companies, defaults: {format: 'json'}
 end
